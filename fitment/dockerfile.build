@@ -1,0 +1,8 @@
+﻿FROM microsoft/dotnet:1.1.4-sdk
+WORKDIR /app
+Copy . /app
+RUN dotnet restore \
+		&&  dotnet build
+ENV ASPNETCORE_URLS http://*:5000
+EXPOSE 5000
+ENTRYPOINT ["dotnet", "run"]

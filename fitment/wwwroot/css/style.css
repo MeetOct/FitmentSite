@@ -1,4 +1,4 @@
-@charset "utf-8";
+@charset "GBK";
 /*
 Design by http://www.templateaccess.com
 Released for free under a Creative Commons Attribution 3.0 License
@@ -61,10 +61,10 @@ ul.ex_menu li a:hover { text-decoration:none;}
 .fbg ul li a { margin:0; padding:2px 4px; background:none; text-decoration:none;}
 .fbg ul li a:hover { text-decoration:underline; font-weight:normal;}
 .fbg img { padding:3px; border:1px solid #cfd2d4;}
-.fbg .col { margin:0; float:left;}
-.fbg .c1 { padding:0 16px 0 0; width:266px;}
+.fbg .col { margin:0;}
+.fbg .c1 { padding:0 16px 0 0; width:400px; float:left;}
 .fbg .c2 { padding:0 16px; width:300px;}
-.fbg .c3 { padding:0 0 0 16px; width:260px;}
+.fbg .c3 { padding:0 0 0 16px; width:360px; float:right;}
 
 /* footer */
 .footer { }
